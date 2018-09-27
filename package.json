@@ -1,0 +1,11 @@
+{
+  "name": "xin-file",
+  "version": "1.0.0",
+  "description": "Xin file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ganesha <reekoheek@gmail.com> (http://sagara.id)",
+  "license": "MIT"
+}

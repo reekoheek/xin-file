@@ -1,0 +1,23 @@
+<ul class="list-group">
+  <li class="list-group-item">
+    <a href="#" id="btnSelect" class="btn btn-primary" (click)="selectClicked(evt)">Select</a>
+  </li>
+
+  <xin-for items="[[value]]" as="file">
+    <template>
+      <li class="list-group-item">
+        <span>[[file.name]]</span>
+        <span>[[computeUploadingText(file.hash)]]</span>
+
+        <button type="button" class="close" aria-label="Close" (click)="deleteClicked(evt, index)">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </li>
+    </template>
+  </xin-for>
+</ul>
+<!-- <div>
+
+  <div>
+  </div>
+</div> -->
